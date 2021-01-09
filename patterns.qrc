@@ -16,7 +16,7 @@
     <!--    <file>patterns/15x15-guardian-d</file> -->
         <file>patterns/15x15-independent-a</file>
         <file>patterns/21x21</file>
-        <file>patterns/berghelandyi</file>
+    <!--    <file>patterns/berghelandyi</file> -->
         <file>patterns/circle</file>
         <file>patterns/circle_thick</file>
         <file>patterns/circle_thin</file>
