@@ -18,7 +18,7 @@ jobs:
 
       # Run build
       - name: build_script
-        working-directory: $GITHUB_WORKSPACE
+        working-directory: /home/runner/work/recrossable/recrossable
         run: |
           ./ci_build.sh
 
