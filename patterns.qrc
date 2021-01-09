@@ -12,8 +12,8 @@
         <file>patterns/9x9o</file>
         <file>patterns/15x15-guardian-a</file>
         <file>patterns/15x15-guardian-b</file>
-        <file>patterns/15x15-guardian-c</file>
-        <file>patterns/15x15-guardian-d</file>
+    <!--    <file>patterns/15x15-guardian-c</file> -->
+    <!--    <file>patterns/15x15-guardian-d</file> -->
         <file>patterns/15x15-independent-a</file>
         <file>patterns/21x21</file>
         <file>patterns/berghelandyi</file>
