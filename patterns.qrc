@@ -20,11 +20,11 @@
         <file>patterns/circle</file>
         <file>patterns/circle_thick</file>
         <file>patterns/circle_thin</file>
-        <file>patterns/denmark</file>
-        <file>patterns/denmarkv</file>
+    <!--    <file>patterns/denmark</file> -->
+    <!--    <file>patterns/denmarkv</file> -->
         <file>patterns/diamond</file>
         <file>patterns/diamonds</file>
-        <file>patterns/diamonds2</file>
+    <!--    <file>patterns/diamonds2</file> -->
         <file>patterns/fjf</file>
         <file>patterns/flask</file>
         <file>patterns/flower</file>
