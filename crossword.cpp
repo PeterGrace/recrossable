@@ -175,7 +175,11 @@ void Crossword::generateCrossword()
     QStringList patterns = QDir(":/patterns/").entryList(QDir::Files);
     if (!patterns.isEmpty()) {
         QString patternName = patterns[qrand() % patterns.size()];
-        patternName = "ginsberg";
+        const QByteArray envPattern = qgetenv("RECROSSABLE_PUZZLENAME");
+        if (!envPattern.isEmpty())
+        {
+            patternName=envPattern;
+        }
         qDebug() << "Loading pattern" << patternName;
         QFile patternFile(":/patterns/" + patternName);
         std::string pattern;
@@ -217,4 +221,9 @@ void Crossword::generateCrossword()
         emit rowsChanged();
     }
     qDebug() << "Generated crossword in" << timer.elapsed() << "ms";
+    const QByteArray benchmark = qgetenv("RECROSSABLE_BENCHMARKING");
+    if (!benchmark.isEmpty())
+    {
+        exit(0);
+    }
 }
