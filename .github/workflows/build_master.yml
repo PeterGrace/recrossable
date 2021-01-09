@@ -22,3 +22,8 @@ jobs:
         run: |
           ./ci_build.sh
 
+      - name: Upload built binary
+        uses: actions/upload-artifact@v2
+        with:
+          name: recrossable
+          path: recrossable
