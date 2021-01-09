@@ -6,10 +6,10 @@
         <file>patterns/3x3</file>
         <file>patterns/5x5</file>
         <file>patterns/5x5f</file>
-        <file>patterns/6x6</file>
-        <file>patterns/7x7</file>
-        <file>patterns/7x7o</file>
-        <file>patterns/9x9o</file>
+    <!--    <file>patterns/6x6</file> -->
+    <!--    <file>patterns/7x7</file> -->
+    <!--    <file>patterns/7x7o</file> -->
+    <!--    <file>patterns/9x9o</file> -->
         <file>patterns/15x15-guardian-a</file>
         <file>patterns/15x15-guardian-b</file>
     <!--    <file>patterns/15x15-guardian-c</file> -->
