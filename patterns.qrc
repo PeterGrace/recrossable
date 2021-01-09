@@ -25,7 +25,7 @@
         <file>patterns/diamond</file>
         <file>patterns/diamonds</file>
     <!--    <file>patterns/diamonds2</file> -->
-        <file>patterns/fjf</file>
+    <!--    <file>patterns/fjf</file> -->
         <file>patterns/flask</file>
         <file>patterns/flower</file>
         <file>patterns/fourdots</file>
