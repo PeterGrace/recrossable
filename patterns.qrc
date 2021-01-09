@@ -47,7 +47,7 @@
         <file>patterns/long</file>
         <file>patterns/man</file>
         <file>patterns/mazlack</file>
-        <file>patterns/medium</file>
+    <!--    <file>patterns/medium</file> -->
         <file>patterns/medium2</file>
         <file>patterns/n</file>
         <file>patterns/new</file>
