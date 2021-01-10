@@ -2,7 +2,7 @@
     <qresource prefix="/">
         <file>patterns/five</file>
         <file>patterns/ginsberg</file>
-        <file>patterns/pacman</file>
+    <!--    <file>patterns/pacman</file> -->
         <file>patterns/3x3</file>
         <file>patterns/5x5</file>
         <file>patterns/5x5f</file>
@@ -30,15 +30,14 @@
         <file>patterns/flower</file>
         <file>patterns/fourdots</file>
         <file>patterns/fourdots2</file>
-        <file>patterns/franklongo</file>
+    <!--    <file>patterns/franklongo</file> -->
         <file>patterns/gate</file>
         <file>patterns/gate_big</file>
         <file>patterns/ginsberg2</file>
         <file>patterns/glas</file>
-        <file>patterns/gmon.out</file>
         <file>patterns/grid5x5</file>
         <file>patterns/grid7x7</file>
-        <file>patterns/grid9x9</file>
+    <!--    <file>patterns/grid9x9</file> -->
         <file>patterns/heart</file>
         <file>patterns/huge</file>
         <file>patterns/invheart</file>
@@ -49,12 +48,12 @@
         <file>patterns/mazlack</file>
     <!--    <file>patterns/medium</file> -->
         <file>patterns/medium2</file>
-        <file>patterns/n</file>
+    <!--    <file>patterns/n</file> -->
         <file>patterns/new</file>
         <file>patterns/new1</file>
         <file>patterns/new2</file>
-        <file>patterns/p</file>
-        <file>patterns/pat</file>
+    <!--    <file>patterns/p</file> -->
+    <!--    <file>patterns/pat</file> -->
         <file>patterns/q</file>
         <file>patterns/small</file>
         <file>patterns/small2</file>
@@ -64,8 +63,8 @@
         <file>patterns/star2</file>
         <file>patterns/swirl1</file>
         <file>patterns/swirl2</file>
-        <file>patterns/symmetric</file>
-        <file>patterns/symmetric2</file>
+    <!--    <file>patterns/symmetric</file> -->
+    <!--    <file>patterns/symmetric2</file> -->
         <file>patterns/symmetric3</file>
         <file>patterns/test</file>
         <file>patterns/test2</file>
