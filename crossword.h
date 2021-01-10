@@ -34,6 +34,7 @@ public slots:
     QString hintTextAt(int index);
 
 private:
+    void timeout();
     void parseWordlist(const QString &filePath);
     void generateCrossword();
 

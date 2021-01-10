@@ -11,14 +11,28 @@
 
 #include <QDebug>
 #include <QFile>
+#include <QTimer>
 #include <QElapsedTimer>
 #include <QDir>
+
+
+void Crossword::timeout()
+{
+    qDebug() << "timed out while trying to render puzzle.";
+    exit(0);
+}
 
 Crossword::Crossword(QObject *parent) : QObject(parent),
     m_grid(nullptr)
 {
     parseWordlist(":/nyt.tsv");
+    QTimer *timeoutTimer = new QTimer(this);
+    connect(timeoutTimer, &QTimer::timeout, this, &Crossword::timeout);
+    qDebug() << "starting timer.";
+    timeoutTimer->start(30000);
+    qDebug() << "timer started.";
     generateCrossword();
+    timeoutTimer->stop();
 }
 
 QString Crossword::hintAt(const int index)
